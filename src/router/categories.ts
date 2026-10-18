@@ -169,7 +169,7 @@ export default (router: express.Router) => {
    */
 
   router.get(
-    "/listcategory/:offset/:limit",
+    "/listcategoryproduct/:offset/:limit",
     categoriesController.listCategoryByMerchantId,
   );
 
@@ -240,7 +240,7 @@ export default (router: express.Router) => {
    *               type: object
    *               example:
    *                 status: 500
-   *                 message: Error table internal server error
+   *                 message: Error table internal s server error
    */
 
   router.post(
